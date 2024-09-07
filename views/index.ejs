@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Test app</title>
+  </head>
+
+  <body>
+    <script src="../data-85mb.js"></script>
+    <script src="../data-100mb.js"></script>
+
+    <h1>Test page</h1>
+
+    <div>
+      <input
+        id="attachment"
+        type="text"
+        name="attachment"
+        style="visibility: hidden"
+      />
+    </div>
+
+    <script>
+      if (typeof data85mb !== "undefined") {
+        document.getElementById("attachment").value = data85mb;
+      }
+      // if (typeof data100mb !== "undefined") {
+      //   document.getElementById("attachment").value = data100mb;
+      // }
+    </script>
+  </body>
+</html>
