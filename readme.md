@@ -6,7 +6,7 @@ https://nodejs.org/en/download/package-manager/current
 
 Position to project directory in terminal and install node packages by running:
 
-`npm run install`
+`npm install`
 
 Then execute start script by running:
 
